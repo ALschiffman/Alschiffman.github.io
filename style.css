@@ -24,9 +24,8 @@ body{
     width: 100%;
     padding: 10px;
     display: flex;
+    flex-flow: row;
     justify-content: center;
-
-
 }
 .nav-title{
     font-family: Roboto, sans-serif;
@@ -72,7 +71,6 @@ li{
     border: black solid;
     box-shadow: black 2px 2px;
     height: fit-content;
-    display: flex;
     align-self: center;
 }
 
